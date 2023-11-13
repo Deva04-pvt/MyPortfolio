@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9bf8c66051.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="logoholder">
+            <img
+              src="IMAGES/devanand-favicon-color (1).png"
+              alt="logo"
+              class="logo"
+            />
+            <p class="remaining">evanand. &nbsp;</p>
+            <img
+              src="IMAGES/k-high-resolution-logo-transparent (1).png"
+              alt="logo"
+              class="logo"
+            />
+          </div>
+
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Student, Year II</p>
+          <h1>
+            Hi, I'm <span>Devanand</span> <br />
+            from SRM University
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-----------------------ABOUT---------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="IMAGES/mypic.jpg" alt="user" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello! I'm a passionate and aspiring computer science student with
+              a deep-rooted fascination for coding and web development. My
+              journey into the world of technology began with a curiosity to
+              understand how the digital realm functions, and it has since
+              evolved into a dedicated pursuit of mastering the art of
+              programming. I find joy in translating creative ideas into
+              functional, user-friendly websites and applications, constantly
+              pushing the boundaries of my skills. My enthusiasm for
+              problem-solving drives me to explore new technologies and stay
+              abreast of industry trends. As I embark on my academic and
+              professional journey, I am excited to contribute my coding skills
+              to create innovative solutions that positively impact the digital
+              landscape.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li>
+                  <span>Web Development</span><br />Designing and Hosting Fully
+                  Functional Web Applications
+                </li>
+                <li>
+                  <span>Competitive Coding</span><br />Implementing fast and
+                  efficient problem solving algorithms
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Techverse Intern</span><br />The Cherry Network, SRMIST
+                </li>
+                <li>
+                  <span>Member</span><br />Competitive Coding Domain, Coding
+                  Ninjas SRMIST
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>1st Year</span><br />9.95 CGPA - SRMIST, Chennai</li>
+                <li><span>Grade XII</span><br />91.6% - CBSE, VRBGS Chennai</li>
+                <li>
+                  <span>GRADE X</span><br />
+                  96.1% - CBSE, RBGS Chennai
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------SERVICES---------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>UI/UX</h2>
+            <p>
+              As a seasoned designer deeply immersed in the world of UI/UX,
+              Figma and Canva are my dynamic duo for crafting visually stunning
+              and user-centric digital experiences. With Figma's collaborative
+              features, I seamlessly collaborate with my team in real-time,
+              ensuring a smooth design process and rapid iteration. Its prowess
+              in creating interactive prototypes and detailed user interfaces
+              aligns perfectly with my design workflow. On the flip side, Canva
+              is my go-to for effortlessly producing eye-catching graphics.
+              Whether it's social media visuals or engaging presentations,
+              Canva's user-friendly interface and diverse templates make design
+              a breeze. Together, these tools amplify my creative prowess,
+              allowing me to translate ideas into captivating designs that
+              elevate the user experience.
+            </p>
+            <a href="https://www.linkedin.com/in/devanandk04/">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Web Development</h2>
+            <p>
+              Being deeply entrenched in the realm of web development, my
+              toolkit comprises a set of indispensable tools that streamline my
+              workflow and contribute to the efficiency and effectiveness of my
+              projects. Visual Studio Code stands out as my preferred code
+              editor, providing a lightweight yet powerful environment with
+              robust features, extensions, and Git integration. Git and GitHub
+              are fundamental for version control and collaborative coding,
+              enabling seamless collaboration with other developers. For project
+              management and organization, Trello is my go-to, offering a visual
+              and intuitive platform to keep tasks in check. Postman proves
+              invaluable for API development and testing, allowing me to
+              streamline the process of building and debugging APIs.
+              Additionally, browser developer tools, especially those embedded
+              in Chrome and Firefox, are indispensable for real-time debugging
+              and optimizing web performance. These tools collectively empower
+              me to navigate the intricacies of web development with precision
+              and agility.
+            </p>
+            <a href="https://www.linkedin.com/in/devanandk04/">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Competitive Coding</h2>
+            <p>
+              As a competitive coder, I've honed my skills with a strategic
+              selection of tools and technologies that empower me to navigate
+              the complex world of coding challenges. My weapon of choice is
+              Visual Studio Code, a versatile and feature-rich code editor that
+              seamlessly integrates with my coding preferences. Git and GitHub
+              form the backbone of my version control system, ensuring a
+              systematic approach to managing code and collaborating with fellow
+              coders. I've become adept at leveraging the power of algorithms
+              and data structures, and my language of choice is often Python for
+              its readability and versatility. Online judges like Codeforces and
+              LeetCode serve as my training grounds, where I continuously
+              sharpen my problem-solving skills and stay abreast of the latest
+              algorithmic techniques. The competitive coding journey is not just
+              about code; it's a mindset, a pursuit of continuous improvement,
+              and I've curated my toolkit to reflect this commitment to
+              excellence in the ever-evolving landscape of competitive
+              programming.
+            </p>
+            <a href="https://www.linkedin.com/in/devanandk04/">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------PORTFOLIO--------------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="IMAGES/billingsystem.png" alt="work-1" />
+            <div class="layer">
+              <h3>Store Billing System</h3>
+              <p>
+                I developed a store billing system using Python and Tkinter for
+                the user interface. The system enables efficient transaction
+                management, inventory tracking, and invoice generation. Tkinter
+                provides a clean and interactive interface, while Python handles
+                backend logic, including real-time inventory updates. The system
+                enhances the overall store operation by streamlining billing and
+                inventory management.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="IMAGES/weatherapp.png" alt="work-2" />
+            <div class="layer">
+              <h3>Simple Weather App</h3>
+              <p>
+                I crafted a straightforward weather app using Java's Swing for
+                the user interface and JDBC for database connectivity. The Swing
+                framework facilitated the creation of a user-friendly interface
+                with components like buttons and text fields. Users can input a
+                location, and the app retrieves weather data from the connected
+                database using JDBC.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="IMAGES/guessnumber.png" alt="work-3" />
+            <div class="layer">
+              <h3>Guess the Number</h3>
+              <p>
+                My inaugural project as a web developer was a "Guess My Number"
+                app, marked by its simplicity and beginner-friendly syntax.
+                Leveraging HTML, CSS, and JavaScript, I created an interactive
+                web-based game. The HTML structure defined the layout, while CSS
+                added a touch of styling to make the interface visually
+                appealing. JavaScript played a pivotal role in implementing the
+                game logic. Using basic syntax and control flow statements, I
+                prompted users to input their guessed number and provided
+                feedback on whether the guess was too high, too low, or correct.
+                The app also incorporated a limited number of attempts,
+                enhancing the challenge for players.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/Deva04-pvt" class="btn">See More</a>
+      </div>
+    </div>
+    <!--CONTANT-->
+    <div id="contant">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-regular fa-envelope"></i> devanand.pvt.04@gmail.com
+            </p>
+            <p>
+              <i class="fa-solid fa-mobile-screen-button"></i> +91 95001 98579
+            </p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/__.devanand.__04/"
+                ><i class="fa-brands fa-square-instagram"></i></a
+              ><a href="https://www.linkedin.com/in/devanandk04/"
+                ><i class="fa-brands fa-linkedin"></i></a
+              ><a href="https://github.com/Deva04-pvt"
+                ><i class="fa-brands fa-github"></i></a
+              ><a href="https://twitter.com/DevanandKd"
+                ><i class="fa-brands fa-square-x-twitter"></i
+              ></a>
+            </div>
+            <a href="IMAGES/Resume-Devanand-K.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © Devanand. Made with <i class="fa-solid fa-heart"></i> and
+          efforts. Reference from @GreatStack
+        </p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (let tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwJCi_IkBXVCnLWMr2eScB-PSn0rvCa--QK-be70YA3GpRixuNgwaX15Eu61KHHhHl6/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 2000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
